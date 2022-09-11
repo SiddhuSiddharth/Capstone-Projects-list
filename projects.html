@@ -1,0 +1,646 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Capstone Project</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--
+Template 2032 Gray Box
+http://www.tooplate.com/view/2032-gray-box
+-->
+    <link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+    <script language="javascript" type="text/javascript">
+      function clearText(field) {
+        if (field.defaultValue == field.value) field.value = "";
+        else if (field.value == "") field.value = field.defaultValue;
+      }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/ddsmoothmenu.js">
+
+    </script>
+
+    <script type="text/javascript">
+      ddsmoothmenu.init({
+        mainmenuid: "tooplate_menu", //menu DIV id
+        orientation: "h", //Horizontal or vertical menu: Set to "h" or "v"
+        classname: "ddsmoothmenu", //class added to menu's outer DIV
+        //customtheme: ["#1c5a80", "#18374a"],
+        contentsource: "markup", //"markup" or ["container_id", "path_to_menu_file"]
+      });
+    </script>
+
+    <!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+    <link
+      href="css_pirobox/white/style.css"
+      media="screen"
+      title="shadow"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+<link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+    <!--////// END  \\\\\\\-->
+
+    <!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/piroBox.1_2.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $().piroBox({
+          my_speed: 600, //animation speed
+          bg_alpha: 0.5, //background opacity
+          radius: 4, //caption rounded corner
+          scrollImage: false, // true == image follows the page, false == image remains in the same open position
+          pirobox_next: "piro_next", // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+          pirobox_prev: "piro_prev", // Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+          close_all: ".piro_close", // add class .piro_overlay(with comma)if you want overlay click close piroBox
+          slideShow: "slideshow", // just delete slideshow between '' if you don't want it.
+          slideSpeed: 4, //slideshow duration in seconds(3 to 6 Recommended)
+        });
+      });
+    </script>
+    <!--////// END  \\\\\\\-->
+  </head>
+
+
+  <body>
+    <div id="tooplate_body_wrapper">
+      <div id="tooplate_wrapper">
+        <div id="tooplate_header" class="navigationbar">
+          <script src="script.js"></script>
+          
+          <div id="site_title">
+            <h1><a href="#" style="line-height: 1.5">Capstone Project</a></h1>
+          </div>
+
+          <div id="tooplate_menu" class="ddsmoothmenu">
+            <ul>
+              <!-- <li>
+                <a href="index.html">Home<span></span></a>
+              </li> -->
+
+              <li>
+                <a href="about.html">About Us<span></span></a>
+              </li>
+
+              <li>
+                <a href="projects.html" class="selected"
+                  >Projects<span></span
+                ></a>
+                <!-- <ul>
+                  <li><a href="#">Sub menu 1</a></li>
+                  <li><a href="#">Sub menu 2</a></li>
+                  <li><a href="#">Sub menu 3</a></li>
+                  <li><a href="#">Sub menu 4</a></li>
+                  <li><a href="#">Sub menu 5</a></li>
+                </ul> -->
+              </li>
+
+            </ul>
+
+            <br style="clear: left" />
+          </div>
+        </div>
+        <!-- end of tooplate_header -->
+
+        <div id="tooplate_main">
+          <h2 style="text-align: center; margin-bottom: 7%; font-size: 56px;; "><a href="projects.html">Data Science Projects</a></h2>
+          <div class="col_fw_last">
+            <div class="content">
+
+
+            <!-- 1.	Movie Recommender System -->
+
+
+              <div class="post_box">
+                <h2>Movie Recommender System</h2>
+                <img src="images/project_image/1_movie_recc.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> Using ratings collected from real users along with movie details and user demographics to recommend top movies thus working to enhance the user experience for an online streaming service.
+
+                  Recommender Systems are capable of learning your watching pattern in turn provides you with relevant suggestions. 
+
+                  <h6 class = "objdel">Deliverables:</h6> Recommender Systems which learns from the users’ watching patterns to recommend the top movies based on the users’ expectation.
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 2. Article Recommendation System -->
+
+
+              <div class="post_box">
+                <h2>Article Recommendation System</h2>
+                <img src="images/project_image/2_article_recc.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> To create an automatic recommendation system that uses prior knowledge of a user’s rating for some books to suggest new titles to add to his collection. 
+                  In the online world, a user is flooded with information from different sources in which it is not uncommon for a user to change between online portals or consume content from portals that merge articles from different sources.  Huge such huge amount of information, it becomes difficult to select the article that a user will like. Consequently, users stop the consumption of news or lower it down.  To overcome the problem of information overloading (difficulty in making a decision caused by the presence of too much information, recommender systems can be used.  Using article aggregation platform where articles from different domains such as technology, politics, and news and so on are shared by its users and then these articles are recommended on the basis of reading habits.  They have a rating system for articles under which the users when they read the article rate it on a scale of 1 to 5.  
+
+                  <h6 class = "objdel">Deliverables:</h6> To figure out what they can achieve with a collaborative filtering or content based filtering system by accurately predicting ratings for each user article combination. 
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+            <!-- 3. Phishing Detection -->
+
+
+            <div class="post_box">
+              <h2>Phishing Detection</h2>
+              <img src="images/project_image/3_phishing_det.png" alt="Image 06" />
+              <p>
+                <h6 class = "objdel">Objective:</h6> To identify if there is a threat of phishing or not based on certain factors
+
+                Phishing is a kind of cybercrime where attackers pose as known or trusted entities and contact individuals through email, text, or telephone and ask them to share sensitive information. Users may also be prompted to enter credit card information or bank account details as well as other sensitive data. Once this information is collected, attackers may use it to access accounts, steal data and identities, and download malware onto the user’s computer. To avoid this, the only solution is to identify if there is a threat of phishing or not based on certain factors. This is really important from the security point of view. It will be extremely helpful if we could determine if there is a possible threat of phishing.
+                 
+
+                <h6 class = "objdel">Deliverables:</h6> Web app/ mobile app is built to identify if there is a threat of phishing or not based on certain factors.
+
+              </p>
+
+              <div class="cleaner"></div>
+            </div>
+
+
+            <!-- 4. Migration Prediction -->
+
+
+              <div class="post_box">
+                <h2>Migration Prediction</h2>
+                <img src="images/project_image/4_migration.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> To forecast the inflow of migrants into various European countries from Ukraine.
+                  The project aims to forecast the inflow of migrants into various European Countries. By doing so, the government authorities can be proactive in preparing to meet their needs and advocate for the political will to provide safe passage into Europe.
+                  Assistance is needed to be provided to the migrants. That’s why forecasting is of prime importance.                  
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> A Dashboard to visualize /forecast /infer the information from  the actual scenario from migration data through online learning  
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+              <!-- 5.	Hate Speech Classification in tamil -->
+
+
+              <div class="post_box">
+                <h2>Hate Speech Classification in tamil</h2>
+                <img src="images/project_image/5_hate_speech.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>To detect hate speech classification
+
+                  Hate speech is a common occurrence on the internet. Often social media sites like Face book and Twitter face the problem of identifying and censoring problematic posts while weighing the right to freedom of speech. Spam filtering and profanity detection are similar related problems.                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Mobile app/ web app to detect hate speech 
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 6. Classify emergency vehicle from non-emergency vechiles -->
+
+
+              <div class="post_box">
+                <h2>Classify emergency vehicle from non-emergency vechiles</h2>
+                <img src="images/project_image/Picture1.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> To classify the images of vehicles as either belonging to emergency vehicle or non-emergency vehicle category.
+
+                  For automating the traffic signals, the emergency vehicles include police cars, ambulance and fire brigades are detected from non-emergency vehicles using image detection techniques.
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Mobile app/web app for Detection based automation of the traffic signals
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+            <!-- 7. Road lane segmentation for self-driving cars -->
+
+
+            <div class="post_box">
+              <h2>Road lane segmentation for self-driving cars</h2>
+              <img src="images/project_image/Picture2.png" alt="Image 06" />
+              <p>
+                <h6 class = "objdel">Objective:</h6> To build various models to perform lane segmentation tasks for the given images. 
+
+                Self-driving cars require a deep understanding of their surroundings, in order to understand where to drive, when to stop, when to speed up, how much distance to keep between consecutive cars and so on.  The pixel level accuracy has to be built on understanding the scene, recognize the road, pedestrians, cars, and sidewalks. 
+                
+                 
+
+                <h6 class = "objdel">Deliverables:</h6> Dashboard to perform lane segmentation tasks from the given images
+
+              </p>
+
+              <div class="cleaner"></div>
+            </div>
+
+
+            <!-- 8.	Human Pose estimation -->
+
+
+              <div class="post_box">
+                <h2>Human Pose estimation</h2>
+                <img src="images/project_image/Picture3.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> To detect the posture of human body shape.
+
+                  An AI system has to be developed to detect the right posture for a particular Yoga pose or batting posture of cricket player.  Data must comprise of 30, 000 images with annotated key points. 
+                  
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> AI based personalized system to detect the right posture for a cricket player to do batting. 
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+              <!-- 9.	Forecasting website traffic -->
+
+
+              <div class="post_box">
+                <h2>Forecasting website traffic</h2>
+                <img src="images/project_image/Picture4.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>To forecast the traffic for a web portal using deep learning.
+
+                  Web traffic refers to the number of sessions on the website in a given time period.  Accurately estimating the web traffic can be useful for optimizing the publishing and advertising processes. In this project, the use of hourly data of web traffic and forecast the traffic for a web portal can be done using deep learning.
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Dashboard to monitor website traffic.
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 10.	Conversational Agent – Chatbot -->
+
+
+              <div class="post_box">
+                <h2>Conversational Agent – Chatbot</h2>
+                <img src="images/project_image/Picture5.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> To design the chatbot to search for educational resources online and learn how to use it in the real world application.
+
+                  Chatbots are everywhere today, from booking flight tickets to ordering food. We have already interacted with the chatbots for better user’s experience.
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Chatbot to navigate the users to get right educational resources online.
+
+
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+            <!-- 11.	Automatic Tutoring System -->
+
+
+            <div class="post_box">
+              <h2>Automatic Tutoring System</h2>
+              <img src="images/project_image/Picture6.png" alt="Image 06" />
+              <p>
+                <h6 class = "objdel">Objective:</h6> To recommend the topics to be learnt using deep reinforcement learning.
+
+                To support cross disciplinary training in various domains, we are in need of automatic tutoring system. AI based pedagogical is introduced for the working platform and discussion space. 
+                
+                 
+
+                <h6 class = "objdel">Deliverables:</h6> Mobile app/web app is developed to recommend the topics to be learnt. 
+
+              </p>
+
+              <div class="cleaner"></div>
+            </div>
+
+
+            <!-- 12.	Mentor-Mentee Connect -->
+
+
+              <div class="post_box">
+                <h2>Mentor-Mentee Connect</h2>
+                <img src="images/project_image/Picture7.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> Mentee  allocation to mentor
+
+                  An online portal that enables student to select their mentors in their area of interest. Mentor trains the student for a specific time frame and an assessment in carried out.
+                  
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> A dashboard to mentor connect
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+              <!-- 13.	Education Audio/Video Q&A prediction on content -->
+
+
+              <div class="post_box">
+                <h2>Education Audio/Video Q&A prediction on content</h2>
+                <img src="images/project_image/Picture10.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>Q&A prediction on content. 
+
+                  A system that allows content creators for educational audio and video data to make their content directly searchable, using natural language. The system accepts a natural language query from an end user, and displays the appropriate section within the video or audio content; additionally, we can also supply explicit Q&A predictions on the retrieved content.
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> A dashboard which Q&A prediction on retrieved content.
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 14.	Product Q & A -->
+
+
+              <div class="post_box">
+                <h2>Product Q & A</h2>
+                <img src="images/project_image/Picture8.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> Provide exact answers to enquiry like Natural Language questions. Source of data will be any ecommerce website's product detail pages.  When a user is on a specific page he/she can ask questions on the product specifications, usage, brand, price, delivery date, rating, good reviews, bad reviews, shipping charges etc.   A NLP model should process the input question and extract an exact answer from the product page and provide that as the answer to the question.e.g. let's say a user is on the product page of a mobile phone and asks 'how many days will the battery last?'. The answer should be extracted from the section of the page that outlines the battery life and respond with an answer like '2 days'.
+                  Take a product image and a Natural Language query from user as input, perform multimodal semantic search on a corpus of product pages to retrieve and rank top k  product images and associated description that best matches the input image plus query.
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Multilingual support - the NLP/NLU models should support most popular international languages.
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+            <!-- 15.	Text detection in Images -->
+
+
+            <div class="post_box">
+              <h2>Text detection in Images</h2>
+              <img src="images/project_image/Picture9.jpg" alt="Image 06" />
+              <p>
+                <h6 class = "objdel">Objective:</h6>          It’s a general case of Optical Character Recognition (OCR) - detecting and recognizing text in wild images (unstructured text). 
+
+                Skills you’ll learn: Traditional computer vision, CNNs - Object detection algorithms, RNN - LSTM.
+                
+                
+                 
+
+                <h6 class = "objdel">Deliverables:</h6> Web app to detect the text from image given
+
+              </p>
+
+              <div class="cleaner"></div>
+            </div>
+
+
+            <!-- 16.	Image Restoration and Colorization -->
+
+
+              <div class="post_box">
+                <h2>Image Restoration and Colorization</h2>
+                <img src="images/project_image/Picture11.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> Image restoration is the operation of taking a corrupted/noisy image and estimating the clean, original image. Colorization is the process of colorizing a given gray-scale image. 
+
+                  <h6 class = "objdel">Skills you’ll learn:</h6> Image color spaces, CNNs - Generative Adversarial Networks (GANs).
+                  
+                  
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> Web App or Mobile app
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+              <!-- 17.	Face Recognition System -->
+
+
+              <div class="post_box">
+                <h2>Face Recognition System</h2>
+                <img src="images/project_image/Picture12.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>Can be an application of facial recognition systems like attendance tracker. The pipeline for the system would be facial detection -> alignment -> recognition. 
+
+
+                  
+
+                  <h6 class = "objdel">Deliverables:</h6> web app or mobile app.
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 18.	Railway network planning -->
+
+
+              <div class="post_box">
+                <h2>Railway network planning</h2>
+                <img src="images/project_image/Picture13.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> The planning process, essential factors and methods which determine the design and use of passenger railway stations and networks are described. The kind, volume, spatial and temporal distribution of transport demand, trains, scheduled transport services, as well as topography, land-use, environment, population, economy, and transport policy impact on the design of stations and networks. Stations are usually ranked into top, middle, and low level, and further disaggregated into terminal or intermediate ones. The operational program determines the arrangement, use and levels of station platforms and tracks. Timetables are either periodic or non-periodic. Analytical and simulation methods are used to estimate track capacity consumption, calculate train running times, and simulate train operations. Optimization methods are increasingly applied for performance assessment of network timetables and assignment of platform tracks.
+                  
+
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+            <!-- 19.	Collision Detection -->
+
+
+            <div class="post_box">
+              <h2>Collision Detection</h2>
+              <img src="images/project_image/Picture15.jpg" alt="Image 06" />
+              <p>
+                <h6 class = "objdel">Objective:</h6>    The system involves using images to recognise objects in a collision course with the car. Once the object is detected, it must be tracked to detect if it comes under collision course with the car.
+                
+                
+              </p>
+
+              <div class="cleaner"></div>
+            </div>
+
+
+            <!-- 20.	Neural Style Transfer -->
+
+
+              <div class="post_box">
+                <h2>Neural Style Transfer</h2>
+                <img src="images/project_image/Picture14.png" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6> The process of composing one image in the style of another image. It has greater applications in image editing tools, image filters..
+                  
+                  
+                  
+
+                  <h6 class = "objdel">Skills you learn:</h6> Traditional computer vision, CNNs.
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 21. 21 FIFA World Cup Tournament Data -->
+
+
+              <div class="post_box">
+                <h2>21 FIFA World Cup Tournament Data</h2>
+                <img src="images/project_image/21_fifa.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>
+                  Given a database of fifa tournament tracks from 1930-2018, derive predictions and analyse the data, team formations and overall changes between the game played in the eariler times vs the game played in the current times.
+                  <br><br>
+                  The Fjelstul world cup database contains data about the FIFA world cup taken from Wikipedia mainly and compiled in a <a href = "https://github.com/jfjelstul/worldcup">single dataset</a>. It contains world cup details from 1930-2018.
+                  The database has 5 groups of datasets.
+                  <ul style="list-style-type: disc;">
+                    <li>The first contains details like tournament, confedereations, teams, players, managers, refrees, stadiums, matches and awards</li>
+                    <li>The second contains tournament based information like qualified teans, manager appointments, squads and refree appointments</li>
+                    <li>The third has match based information like team appearances, manager appearances, refree appearances and squads</li>
+                    <li>The fourth contains in-match details like goals, penalty kicks, bookings and substituions</li>
+                    <li>The fifth covers tournament level attributes such as host nation, stages, groups, standings and award winners</li> 
+                  </ul>
+                  For more detils about the dataset refer <a href="https://github.com/jfjelstul/worldcup">this link</a>.
+                  
+
+                  <h6 class = "objdel">Deliverables: </h6> A Dashboard containing statistics and visualizations of the data.
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+
+
+            <!-- 22. Wikishark Clone -->
+
+
+              <div class="post_box">
+                <h2>WikiShark clone</h2>
+                <img src="images/project_image/22_wikishark.jpg" alt="Image 06" />
+                <p>
+                  <h6 class = "objdel">Objective:</h6>
+                  Goal of this project is to analyze, categorize the trending wiki pages and visualize the article traffic and trends.
+                  <br>
+                  The emergence of large-scale online digital systems that harvest and mediate access to collective human behavior and knowledge will have an unprecedented impact on social science research. However, many researchers lack the expertise and computational resources necessary to transform the raw data resulting from these systems into meaningful metrics that can be employed in scientific modeling and analysis.
+
+                  When expertise and computational resources are coincident for individual researchers or research groups, the resulting fruits of their labor are often siloed and seldom shared to the widespread scientific community. In this project, we aim to develop a set of tools that will provide researchers with real-time access to meaningful, rich and context-inclusive metrics on emerging events throughout the world. To accomplish this, we will provide real-time analysis of raw data on the content, context, production and consumption of information on Wikipedia..
+                  
+
+                  <h6 class = "objdel">Deliverables: </h6> A Dashboard containing statistics and visualizations of the data.
+                </p>
+
+                <div class="cleaner"></div>
+              </div>
+            <!-- <div>
+                <div id="sidebar">
+                  <h2>Categories</h2>
+                
+                 <div class="sidebar_box">
+                    <ul class="sb_link">
+                     <li><a href="#">Aliquam erat volutpat</a></li>
+                      <li><a href="#">Cras ut ultricies sem</a></li>
+                      <li><a href="#">Maecenas vel lacus id</a></li>
+                      <li><a href="#">Ut porta lacus at mattis</a></li>
+                      <li><a href="#">Vehicula eget eleifend</a></li>
+                    </ul>
+                  <div>
+            </div> -->
+          </div>
+            
+          <p>
+            <ul>
+              <li><a href="projects.html"></a></li>
+              <li><a href="projects.html"></a></li>
+              <li><a href="projects.html"></a></li>
+              <li><a href="projects.html"></a></li>
+            </ul>
+          </p>
+        </div>
+        <!-- end of tooplate_main -->
+
+        <div class="cleaner"></div>
+      </div>
+      <!--end of tooplate_wrapper-->
+    </div>
+    <!--end of tooplate_body_wrapper-->
+
+    <!-- <div id="tooplate_footer_wrapper">
+      <div id="tooplate_footer">
+        <div class="col_w240">
+          <div><h5>Supported Faculties</h5></div>
+          <ul class="footer_link">
+            <li><a href="#">Dr. Nadarajan R</a></li>
+            <li><a href="#">Dr. Senthil Kumar M</a></li>
+            <li><a href="#">Dr. Sridevi UK</a></li>
+            <li><a href="#">Dr. Dinakar V</a></li>
+          </ul>
+        </div>
+        
+        <div class="col_w240">
+          <h5>Social Links</h5>
+          <ul class="footer_link">
+            <li><a href="https://www.psgtech.edu/" class="facebook social">PSG College of Technology</a></li>
+            <li><a href="https://www.linkedin.com/company/psg-tech/mycompany/" class="linkedin social">Linkedin</a></li>
+            <li><a href="https://www.youtube.com/channel/UCzsjvkCdO1l5Ua0nR_eifAw" class="youtube social">Youtube</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/PSG_College_of_Technology" class="vimeo social">Wikipedia</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Recruiting Companies</h5>
+
+
+          <div class="col_w240">
+          <ul class="footer_link">
+            <li><a href="https://www.amazon.com/">Amazon</a></li>
+            <li><a href="https://www.cisco.com/">Cisco Systems</a></li>
+            <li><a href="https://www.dell.com/en-us/blog/tags/dell-emc/">Dell EMC</a></li>
+            <li><a href="https://www.goldmansachs.com/">Goldman Sachs</a></li>
+            <li><a href="https://www.google.com/">Google</a></li>
+          </ul>
+          </div>
+
+         <div class="col_w240">
+          <ul class="footer_link">
+            <li><a href="https://www.ibm.com/">IBM</a></li>
+            <li><a href="https://www.intel.com/">Intel</a></li>
+            <li><a href="https://www.jpmorgan.com/">J.P.Morgan</a></li>
+            <li><a href="https://www.kla.com/">KLA Tencor</a></li>
+            <li><a href="https://www.microsoft.com/">Microsoft</a></li>
+          </ul>
+         </div>
+
+         
+        </div>
+
+
+        <div class="cleaner h40"></div>
+        with love ❤️
+        <b style="color: #e5a923; font-size: 14px; font-weight: normal"
+          >DS 2k20</b
+        >
+        <div class="cleaner"></div>
+      </div> -->
+    <!--end of tooplate_footer_wrapper-->
+  </body>
+</html>
